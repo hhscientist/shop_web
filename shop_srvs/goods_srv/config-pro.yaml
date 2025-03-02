@@ -1,0 +1,7 @@
+mysql:
+  host: '172.30.70.200'
+  port: 3306
+  user: 'root'
+  password: 'Aa123456'
+  db: 'shop_usr_srv'
+
