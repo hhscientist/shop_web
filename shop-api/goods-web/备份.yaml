@@ -1,0 +1,38 @@
+name: user-web
+port: 8021
+user_srv:
+  host: 127.0.0.1
+  port: '50051'
+  name: user-srv
+jwt:
+  key: X$t0xUN@reBoKoqp
+redis:
+  host: 172.30.70.200
+  port: 6379
+  expire: 240
+consul:
+  host: 172.30.70.200
+  port: 8500
+#
+#  json
+  {
+    "name": "user-web",
+    "port": 8021,
+    "user_srv": {
+      "host": "127.0.0.1",
+      "port": "50051",
+      "name": "user-srv"
+    },
+    "jwt": {
+      "key": "X$t0xUN@reBoKoqp"
+    },
+    "redis": {
+      "host": "172.30.70.200",
+      "port": 6379,
+      "expire": 240
+    },
+    "consul": {
+      "host": "172.30.70.200",
+      "port": 8500
+    }
+  }
