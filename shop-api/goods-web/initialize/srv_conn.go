@@ -24,5 +24,5 @@ func InitSrvConn() {
 	}
 
 	goodsSrvClient := proto.NewGoodsClient(goodsConn)
-	global.GoodsSrvclient = goodsSrvClient
+	global.GoodsSrvClient = goodsSrvClient
 }

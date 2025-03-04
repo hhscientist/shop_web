@@ -54,7 +54,7 @@ func main() {
 	//		panic(err)
 	//	}
 	//	global.ServerConfig.Port = port
-	//}
+	//	//}
 
 	registerClient := consul.NewRegistryClient(global.ServerConfig.ConsulConfig.Host, global.ServerConfig.ConsulConfig.Port)
 	serviceId := uuid.NewV4().String()
