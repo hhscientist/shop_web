@@ -1,0 +1,17 @@
+host: '47.119.137.106'
+port: 8848
+namespace: '1c4661c2-ca24-487d-8766-cfc40576d3ac'
+user: 'nacos'
+password: 'nacos'
+dataid: 'orders-web.json'
+group: 'dev'
+
+
+
+
+
+
+
+
+
+
